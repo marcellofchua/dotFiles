@@ -13,42 +13,40 @@
 @import url(https://capnkitten.github.io/BetterDiscord/Themes/Translucence/css/source.css);
 
 :root {
-	--font-size: 50%;
-
-	--app-bg: rgba(0,0,0,0);
-	--app-blur: 10px;
+	--app-bg: rgba(59,66,57,0);
+	--app-blur: 0px;
 	--app-margin: 10px;
 	--app-radius: 10px; /*	-	*/
-	
-	--accent-hue: 90;
-	--accent-saturation: 80%;
-	--accent-lightness: 80%;
+
+	--accent-hue: 350;
+	--accent-saturation: 100%;
+	--accent-lightness: 90%;
 	--accent-opacity: 0.9;
 	--accent-text-color: #fff; /*	-	*/
 
 	--sidebar-color: rgba(0,0,0,0.1);
 	--main-content-color: rgba(0,0,0,0.2); /*	-	*/
 
-	--message-color: rgba(146, 176, 93, 0.4);
+	--message-color: rgba(59,66,57,0.3);
 	--message-radius: 3px;
 	--message-padding-top: 3px;
 	--message-padding-side: 3px; /*	-	*/
-	
-	--reply-hue: 146;
-	--reply-saturation: 70%;
-	--reply-lightness: 90%;
-	--reply-opacity: 0.4; /*	-	*/
 
-	--textarea-color: 00000000;
+	--reply-hue: 350;
+	--reply-saturation: 100%;
+	--reply-lightness: 90%;
+	--reply-opacity: 0.3; /*	-	*/
+
+	--textarea-color: rgba(0,0,0,0);
 	--textarea-alpha: 0;
 	--textarea-alpha-focus: 0;
-	--textarea-text-color: rgba(0,0,0,0);
+	--textarea-text-color: rgba(255,255,255,1);
 	--textarea-radius: 1px;  /*	-	*/
 
 	--card-color: rgba(0,0,0,0.1);
 	--card-color-hover: rgba(0,0,0,0.1);
 	--card-color-select: rgba(0,0,0,0.1); /*	-	*/
-	
+
 	--button-height: 2px;
 	--button-padding: 0 10px;
 	--button-action-color: #000;
@@ -61,6 +59,5 @@
 
 	--background-modifier-hover: rgba(255,255,255,0.1);
 	--background-modifier-selected: rgba(255,255,255,0.1);
-
 }
 
