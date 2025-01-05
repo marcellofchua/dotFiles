@@ -18,8 +18,8 @@ alias ls='eza -x --color=auto'
 alias grep='grep --color=auto'
 alias date="date +%D' '%A' '%r"
 alias cal='khal calendar'
-alias cat='bat'
 alias ff='fastfetch'
+alias mc='mc --nosubshell'
 # Configuration Files
 alias kc='sudo nano ~/.config/kitty/kitty.conf'
 alias hc='sudo nano ~/.config/hypr/hyprland.conf'
@@ -27,10 +27,7 @@ alias bc='sudo nano ~/.bashrc'
 alias zc='sudo nano ~/.zshrc'
 alias ffc='sudo nano .config/fastfetch/config.jsonc'
 # Drives and Shortcuts
-alias Data='cd /run/media/smonk/Data'
-alias WebDev='cd /run/media/smonk/Data/Coding/WebDev/2024WebDev'
-alias Coding='cd /run/media/smonk/Data/Coding'
-alias Java='cd /run/media/smonk/Data/School/Sophia/IntroJava/'
+alias kde-polkit='/usr/lib/polkit-kde-authentication-agent-1'
 # Media Commands
 alias pq='pqiv -ci'
 alias wfa='wf-recorder'
@@ -52,8 +49,15 @@ alias enl='trans en:nl'
 alias nle='trans nl:en -b'
 # Programs
 alias vial='~/Stuff/AppImages/./Vial.AppImage'
+alias steaM='~/.millennium/start.sh'
+alias qtds='~/Qt/Tools/QtDesignStudio/bin/./qtdesignstudio'
+# Development
+alias testSDDM='sddm-greeter --test-mode --theme'
+# My Programs
+alias borderCalc='python ~/Projects/CalculationsForMe/LoginBoxBorderCalculator.py'
 
-wal -r
+cat /home/smonk/.cache/wal/sequences
+wal -R
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
