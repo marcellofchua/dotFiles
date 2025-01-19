@@ -2,6 +2,7 @@
 My personal dotFiles for various configurations.
 
 Work in Progress: 1/18/25
-Plans to change how this folder works.
-I will be writing a batch script that deploys all of the stuff I need for new images of Linux.
-It will install all of the programs I usually need, contain copies of my dotFiles, then move them to their respective locations. This will make it much faster to reinstall Linux or move to a new device.
+I'll fix this folder before the month ends.
+This dotFiles will contain only the dotFiles meant for sharing to people publically that may like my configurations for some software.
+Should be for the following:
+kitty, vesktop, hyprland, wofi, zshrc, and whatever else I missed lol.
