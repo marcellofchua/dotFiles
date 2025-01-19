@@ -13,21 +13,21 @@
 @import url(https://capnkitten.github.io/BetterDiscord/Themes/Translucence/css/source.css);
 
 :root {
-	--app-bg: rgba(59,66,57,0);
+	--app-bg: rgba(40,40,35,0);
 	--app-blur: 0px;
 	--app-margin: 10px;
 	--app-radius: 10px; /*	-	*/
 
-	--accent-hue: 350;
+	--accent-hue: 0;
 	--accent-saturation: 100%;
-	--accent-lightness: 90%;
-	--accent-opacity: 0.9;
+	--accent-lightness: 70%;
+	--accent-opacity: 1;
 	--accent-text-color: #fff; /*	-	*/
 
 	--sidebar-color: rgba(0,0,0,0.1);
 	--main-content-color: rgba(0,0,0,0.2); /*	-	*/
 
-	--message-color: rgba(59,66,57,0.3);
+	--message-color: rgba(91,113,99,0.3);
 	--message-radius: 3px;
 	--message-padding-top: 3px;
 	--message-padding-side: 3px; /*	-	*/
