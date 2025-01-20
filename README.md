@@ -1,11 +1,8 @@
 # dotFiles
 My personal dotFiles for various configurations.
 
-Work in Progress: 1/18/25
-I'll fix this folder before the month ends.
-This dotFiles will contain only the dotFiles meant for sharing to people publically that may like my configurations for some software.
-Should be for the following:
-kitty, vesktop, hyprland, wofi, zshrc, and whatever else I missed lol.
+Work in Progress: 1/19/25
 
-Update: 1/19/25
-Deleted my dotFiles here while I'm working on the issues with my Install script.
+This used to have my dotFiles in it, but it was disorganized as it turned into the ArchLinuxSetup repository.
+That repository exists separately for me to get ArchLinux configured with my dotFiles, themes, Hyprland, and various software after a fresh Arch Linux install.
+This repository will eventually be a standalone of the dotFiles in the ArchLinxSetup since people looking for dotFiles aren't specifically trying to clone my setup and all the other various user-specific things.
