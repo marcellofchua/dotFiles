@@ -6,3 +6,6 @@ I'll fix this folder before the month ends.
 This dotFiles will contain only the dotFiles meant for sharing to people publically that may like my configurations for some software.
 Should be for the following:
 kitty, vesktop, hyprland, wofi, zshrc, and whatever else I missed lol.
+
+Update: 1/19/25
+Deleted my dotFiles here while I'm working on the issues with my Install script.
