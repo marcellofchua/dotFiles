@@ -1,8 +1,8 @@
 # dotFiles
 My personal dotFiles for various configurations.
 
-Work in Progress: 1/19/25
+Work in Progress: 02/02/2025
 
-This used to have my dotFiles in it, but it was disorganized as it turned into the ArchLinuxSetup repository.
-That repository exists separately for me to get ArchLinux configured with my dotFiles, themes, Hyprland, and various software after a fresh Arch Linux install.
-This repository will eventually be a standalone of the dotFiles in the ArchLinxSetup since people looking for dotFiles aren't specifically trying to clone my setup and all the other various user-specific things.
+There used to be a lot of dotFiles in here, but I am re-working this folder to be more appropriate for sharing with others since I rely on another of my repositories for rebuilding my computers when I inevitably re-image it.
+
+I have added my Windows 98 theme for Wofi to this.
