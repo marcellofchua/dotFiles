@@ -1,0 +1,40 @@
+#window {
+  background-color: rgba(189, 189, 188, 0.6);
+  box-shadow: 0 10px 15px -3px rgba(255, 255, 255, 1), 0 4px 6px -4px rgba(255, 255, 255, 1);
+  font-size: 2rem;
+  font-family: "Windows";
+}
+#window #outer-box {
+  padding: 0.15rem;
+}
+#window #outer-box #input {
+  background-color: rgba(16, 129, 129, 0.9);
+  color: #000000;
+  border: none;
+  border-bottom: 1px solid rgba(16, 129, 129, 0.9);
+  padding: 1rem 1rem;
+  font-size: 3rem;
+}
+#window #outer-box #input:focus, #window #outer-box #input:focus-visible, #window #outer-box #input:active {
+  border: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+#window #outer-box #scroll {
+}
+#window #outer-box #scroll #inner-box {
+}
+#window #outer-box #scroll #inner-box #entry {
+  color: #000;
+  background-color: rgba(189, 189, 188, 1);
+  padding: 1rem 1rem;
+}
+#window #outer-box #scroll #inner-box #entry #img {
+  width: 1rem;
+  margin-right: 1rem;
+}
+#window #outer-box #scroll #inner-box #entry:selected {
+  color: #000;
+  background-color: rgba(16, 16, 73, 1);
+  outline: none;
+}
