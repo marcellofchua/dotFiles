@@ -2,6 +2,6 @@
 My personal dotFiles for various configurations.
 
 <p align="center">
-**wofi-98**
-![image](https://github.com/marcellofchua/dotFiles/blob/main/wofi-98/screenshot.png)
+  **wofi-98**
+  <img width="420" src="https://github.com/marcellofchua/dotFiles/blob/main/wofi-98/screenshot.png" alt="wofi98 screenshot>
 </p>
