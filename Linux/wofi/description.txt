@@ -1,1 +1,0 @@
-dotFiles for a collection of wofi themes I use.
