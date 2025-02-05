@@ -1,0 +1,131 @@
+<!--
+### Theme Elements ###
+## Window Border | 21
+## Query Box | 29
+## Query Suggestion Box | 39
+## Pending Line | 48
+## SearchIcon | 52
+## Item Title | 61
+## Item Title Selected | 66
+## Item Sub Title | 71
+## Item Sub Title Selected | 77
+## Item Hotkey | 83
+## Item Hotkey Selected | 89
+## Item Selected Background | 95
+## Highlight | 98
+## Thumb | 104
+## Separator | 120
+## Item Glyph | 128
+-->
+
+<!--# Window Border-->
+<Style x:Key="WindowBorderStyle" BasedOn="{StaticResource BaseWindowBorderStyle}" TargetType="{x:Type Border}">
+        <Setter Property="BorderThickness" Value="2" />
+        <Setter Property="BorderBrush" Value="#ffffff" /> 
+        <Setter Property="CornerRadius" Value="2" />
+        <Setter Property="Background" Value="#ffffff" />
+ </Style>
+
+<!--# Query Box-->
+ <Style x:Key="QueryBoxStyle" BasedOn="{StaticResource BaseQueryBoxStyle}" TargetType="{x:Type TextBox}">
+        <Setter Property="FontSize" Value="24" />
+        <Setter Property="Background" Value="#ffffff" />  <!-- Set it to the same color as the window. -->
+        <Setter Property="Foreground" Value="#ffffff" /> <!-- Font Color -->
+        <Setter Property="CaretBrush" Value="#ffffff" /> <!-- Cursor Color -->
+        <Setter Property="FontSize" Value="26" />
+        <Setter Property="Height" Value="42" /> <!-- Default is 42. -->
+</Style>
+
+<!--# Query Suggestion Box-->
+<Style x:Key="QuerySuggestionBoxStyle" BasedOn="{StaticResource BaseQuerySuggestionBoxStyle}" TargetType="{x:Type TextBox}">
+        <Setter Property="Background" Value="#ffffff" />
+        <Setter Property="Foreground" Value="#ffffff" /> <!-- Font Color -->
+        <Setter Property="FontSize" Value="26" /> <!-- Same as QueryBox -->
+        <Setter Property="Height" Value="42" /> <!-- Same as QueryBox -->
+</Style>
+
+<!--# Pending Line-->
+<Style x:Key="PendingLineStyle" BasedOn="{StaticResource BasePendingLineStyle}" TargetType="{x:Type Line}">
+        <Setter Property="Stroke" Value="#ffffff" /> <!-- Bar Color -->
+</Style>
+
+<!--# SearchIcon-->
+<Style x:Key="SearchIconStyle" TargetType="{x:Type Path}" BasedOn="{StaticResource BaseSearchIconStyle}">
+        <Setter Property="Fill" Value="#ffffff" /> <!-- Color -->
+        <Setter Property="Width" Value="32" /> <!-- Size. Default is 32. -->
+        <Setter Property="Height" Value="32" /> <!-- Size -->
+</Style>
+<!--#Hide: <Setter Property="Visibility" Value="Collapsed" />-->
+
+<!--# Item Title-->
+<Style x:Key="ItemTitleStyle"  BasedOn="{StaticResource BaseItemTitleStyle}" TargetType="{x:Type TextBlock}">
+    <Setter Property="Foreground" Value="#ffffff" /> 
+    <Setter Property="FontSize" Value="13" /> <!-- Default is 16 -->
+</Style>
+
+<!--# Item Title Selected-->
+<Style x:Key="ItemTitleSelectedStyle" BasedOn="{StaticResource BaseItemTitleSelectedStyle}"  TargetType="{x:Type TextBlock}" >
+        <Setter Property="Foreground" Value="#ffffff" />
+</Style>
+
+<!--# Item Sub Title-->
+<Style x:Key="ItemSubTitleStyle" BasedOn="{StaticResource BaseItemSubTitleStyle}" TargetType="{x:Type TextBlock}" >
+        <Setter Property="Foreground" Value="#ffffff" />
+        <Setter Property="FontSize" Value="13" /> <!-- Default is 13 -->
+</Style>
+
+<!--# Item Sub Title Selected-->
+<Style x:Key="ItemSubTitleSelectedStyle" BasedOn="{StaticResource BaseItemSubTitleSelectedStyle}" TargetType="{x:Type TextBlock}" >
+        <Setter Property="Cursor" Value="Arrow" />
+        <Setter Property="Foreground" Value="#ffffff" />
+</Style>
+
+<!--# Item Hotkey-->
+<Style x:Key="ItemHotkeyStyle" TargetType="{x:Type TextBlock}">
+        <Setter Property="FontSize" Value="13" />
+        <Setter Property="Foreground" Value="#ffffff" />
+</Style>
+
+<!--# Item Hotkey Selected-->
+<Style x:Key="ItemHotkeySelectedStyle" TargetType="{x:Type TextBlock}">
+        <Setter Property="FontSize" Value="13" />
+        <Setter Property="Foreground" Value="#ffffff" />
+</Style>
+
+<!--# Item Selected Background-->
+<SolidColorBrush x:Key="ItemSelectedBackgroundColor">#3c454e</SolidColorBrush>
+
+<!--# Highlight-->
+<Style x:Key="HighlightStyle">
+        <Setter Property="Inline.Foreground" Value="#ffffff" />
+        <Setter Property="Inline.FontWeight" Value="Bold" />
+</Style>
+
+<!--# Thumb-->
+<Style x:Key="ThumbStyle" BasedOn="{StaticResource BaseThumbStyle}" TargetType="{x:Type Thumb}">
+        <Setter Property="SnapsToDevicePixels" Value="True"/>
+        <Setter Property="OverridesDefaultStyle" Value="true"/>
+        <Setter Property="IsTabStop" Value="false"/>
+        <Setter Property="Width" Value="2"/> <!-- Size of Thumb -->
+        <Setter Property="Focusable" Value="false"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Thumb}">
+                    <Border CornerRadius="2" DockPanel.Dock="Right" Background="#6c7279" BorderBrush="Transparent" BorderThickness="0" /> <!-- Background is Color of Thumb -->
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+<!--# Separator-->
+<Style x:Key="SeparatorStyle" BasedOn="{StaticResource BaseSeparatorStyle}" TargetType="{x:Type Rectangle}">
+        <Setter Property="Fill" Value="#ffffff"/>
+        <Setter Property="Height" Value="1"/> 
+        <Setter Property="Margin" Value="0 0 0 8"/> <!--  It is left, up, right, and down in order. -->
+</Style>
+<!--Hide: <Setter Property="Visibility" Value="Collapsed" />-->
+
+<!-- # Item Glyph-->
+<Style x:Key="ItemGlyph"  BasedOn="{StaticResource BaseGlyphStyle}" TargetType="{x:Type TextBlock}">
+        <Setter Property="Foreground" Value="#ffffff" />
+</Style>
