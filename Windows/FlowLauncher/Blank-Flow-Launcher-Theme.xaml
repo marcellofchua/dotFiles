@@ -93,7 +93,7 @@
 </Style>
 
 <!--# Item Selected Background-->
-<SolidColorBrush x:Key="ItemSelectedBackgroundColor">#3c454e</SolidColorBrush>
+<SolidColorBrush x:Key="ItemSelectedBackgroundColor">#ffffff</SolidColorBrush>
 
 <!--# Highlight-->
 <Style x:Key="HighlightStyle">
