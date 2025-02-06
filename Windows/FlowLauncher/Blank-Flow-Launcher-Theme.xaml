@@ -20,7 +20,7 @@ Should be fixed by 2/9/2025, just needed a quick place to save this online.
 ## Separator | 
 -->
 
-<!-- Start of Theme -->
+<!-- START OF THEME -->
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:system="clr-namespace:System;assembly=mscorlib">
@@ -141,3 +141,4 @@ Should be fixed by 2/9/2025, just needed a quick place to save this online.
         <!--Hide: <Setter Property="Visibility" Value="Collapsed" />-->
 
 </ResourceDictionary>
+<!-- END OF THEME -->
