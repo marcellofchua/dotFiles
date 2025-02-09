@@ -1,5 +1,5 @@
 # dotFiles
-My personal dotFiles for various configurations.
+My dotFiles for themeing and configurations.
 
 <p align="center">
   <b>wofi-98</b>
